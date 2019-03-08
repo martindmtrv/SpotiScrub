@@ -1,6 +1,6 @@
 # SpotiScrub
 
-This is a python program to clean out your playlists by finding non-explicit versions of your songs on spotify! Rather than simply ommiting explicit songs, this program attempts to search the other releases of the same song on spotify (which are kinda hidden) and creates a new playlist or overwrites an existing one!
+This is a python program to clean out your playlists by creating a non-explicit version of your favorite playlist!
 
 # Required modules
 

@@ -16,7 +16,7 @@ def auth(username):
     id = "6b4c09706f084c6bb5586a662b83f0e3" # establish user score and authetication tokens
     secret = "161ad390e0694dfe8e871e61e31079aa"
     scope = "playlist-modify-public"
-    token = util.prompt_for_user_token(username,scope,client_id=id,client_secret=secret,redirect_uri='http://localhost:8888/callback/')
+    token = util.prompt_for_user_token(username,scope,client_id=id,client_secret=secret,redirect_uri='https://martindmtrv.github.io/callbackSpotiscrub')
     sp = spotipy.Spotify(auth=token)
     return sp
 
